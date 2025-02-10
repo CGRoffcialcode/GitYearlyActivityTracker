@@ -27,5 +27,5 @@ jobs:
         echo "Subject: User:CGRoffcialcode" >> email.txt
         echo "" >> email.txt
         echo "Remember to keep track of this as a mp4 in your GitHub account!" >> email.txt
-        echo "<insert link here>" >> email.txt
+        echo "<https://git-wrapped.com/>" >> email.txt
         ssmtp 19126@sevenkings.school < email.txt
