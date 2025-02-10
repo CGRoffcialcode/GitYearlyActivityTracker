@@ -1,8 +1,6 @@
 name: Send Annual Email
 
 on:
-  schedule:
-    - cron: '0 0 1 1 *'  # This cron job runs at 00:00 on January 1st every year
     workflow_dispatch:
     
 jobs:
